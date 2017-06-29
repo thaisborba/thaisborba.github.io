@@ -1,0 +1,139 @@
+/*Color-pallet: 
+Yellow:      #FCEBB6
+Brow:        #5E412F
+Orange:      #F07818
+Dark-Yellow: #F0A830
+Green:        #78C0A8
+*/
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cardo-Regular';
+    src: url('../fonts/Cardo-Regular.ttf');
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #e08283 !important;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 32px;
+    font-family: 'Cardo-Regular'
+}
+
+h3 {
+    margin-top: 0px;
+    font-family: 'Cardo-Regular';
+    color: #ff6668 !important;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #e08283;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Raleway-Regular';
+}
+
+.about-content {
+    font-size: 18px;
+}
+
+.contact-content {
+    font-size: 18px;
+}
+
+.presskit-content {
+    font-size: 32px;
+}
+
+#makeup-image {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cover-heart {
+    color: #ff6668;
+}
+
+#cover-top-container {
+background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#cover-top-title {
+    margin-top: 2%;
+}
+
+#about-title {
+    font-weight: unset;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#scroll-image {
+    position: relative;
+}
+
+#menu {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+}
+
+#contact-tel {
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 13%;
+        font-family: 'Raleway-Regular';
+}
+
+#contact-mail {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e08283;
+}
+
+#contact-mail:hover {
+    color: #ff6668;
+}
+
+#contact-span-1 {
+    padding-top: 30px;
+}
+
+#contact-span-2 {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+#contact-region {
+    font-size: 16px;
+    color: #888 !important;
+}
+
+.separator {
+    background-color: #C55;
+    height: 4px;
+    margin-bottom: 15px;
+}
+
+@media(max-width:576px) {}
