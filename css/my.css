@@ -167,6 +167,11 @@ p {
     left: 13%;
 }
 
+#facebook-frame {
+    left: 25%;
+    position: relative;
+}
+
 @media(max-width:1200px) {
     #container-tel {
         left: 9%;
@@ -186,11 +191,19 @@ p {
     #container-tel {
         left: 0%;
     }
+    #facebook-frame {
+        left: 10%;
+        position: relative;
+    }
 }
 
 @media(max-width:410px) {
     #contact-tel {
         font-size: 26px;
         top: 30%;
+    }
+    #facebook-frame {
+        left: 0%;
+        position: relative;
     }
 }
