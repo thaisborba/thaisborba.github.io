@@ -5,13 +5,11 @@ var language = {
             'heart': '❤'
         },
         about: {
-            'title': 'Maquiagem. Arte da beleza'
-        },
-        rupert: {
-            'title': 'Sobre mim',
+            'title': 'Maquiagem. Arte da beleza',
+            'subtitle': 'Sobre mim',
             'content-1': 'Sou Maquiadora profissional atendendo na região de Campinas(SP)',
             'content-2': 'Formada pelo <b>instituto lala</b> e <b>tanana</b>, já realizei cursos com grandes maquiadoras do brasil como <b>tanana</b> e <b>lalala</b>',
-            'content-3': 'Trabalho com todo tipo de maquiagem, noivas, formandos, debutantes, produções publicitarias, artisticas ou maquiagem para qualquer ocasião que você desejar ;)',
+            'content-3': 'Trabalho com todos os tipos de maquiagens e para qualquer ocasião que você desejar ;)',
             'content-4': ''
         },
         contact: {

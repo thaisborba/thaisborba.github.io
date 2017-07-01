@@ -67,13 +67,18 @@ p {
     display: block;
 }
 
-#cover-heart {
+.cover-heart {
     color: #ff6668;
+    text-shadow: 0 0 1px black;
 }
 
 #cover-top-container {
-background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
+}
+
+.cover-subtitle {
+    text-shadow: 0 0 2px black;
 }
 
 #cover-top-title {
@@ -87,7 +92,7 @@ background-color: rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
 }
 
-#scroll-image {
+.scroll-image {
     position: relative;
 }
 
@@ -102,8 +107,8 @@ background-color: rgba(0, 0, 0, 0.1);
     font-size: 38px;
     font-weight: bold;
     position: absolute;
-    top: 13%;
-        font-family: 'Raleway-Regular';
+    top: 20%;
+    font-family: 'Raleway-Regular';
 }
 
 #contact-mail {
@@ -130,10 +135,62 @@ background-color: rgba(0, 0, 0, 0.1);
     color: #888 !important;
 }
 
+.contact-container {
+    border-color: #e08283;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-container:hover {
+    background-color: rgba(224, 130, 131, 0.06);
+    ;
+}
+
+.contact-container a {
+    color: #e08283;
+}
+
 .separator {
     background-color: #C55;
     height: 4px;
     margin-bottom: 15px;
 }
 
-@media(max-width:576px) {}
+#icons-services {
+    text-align: center;
+}
+
+#container-tel {
+    left: 13%;
+}
+
+@media(max-width:1200px) {
+    #container-tel {
+        left: 9%;
+    }
+}
+
+@media(max-width:991px) {
+    #icons-services {
+        text-align: left;
+    }
+    #container-tel {
+        left: 22%;
+    }
+}
+
+@media(max-width:767px) {
+    #container-tel {
+        left: 0%;
+    }
+}
+
+@media(max-width:410px) {
+    #contact-tel {
+        font-size: 26px;
+        top: 30%;
+    }
+}

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Thais Borba</title>
+    <title>ThaisBorba Maquiadora Campinas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,20 +29,32 @@
     <!-- COVER -->
     <div class="cover">
         <!-- COVER-IMAGE -->
-        <div class="cover-image" style="background-image: url(cover.jpg);"></div>
+        <div class="cover-image" style="background-image: url(cover.png);"></div>
         <div class="container-fluid" id="cover-top-container">
             <div class="row" id="cover-top-title">
+
                 <!-- DESKTOP MODE -->
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 hidden-sm hidden-xs text-center">
                     <img src="logo.png" height="200px" />
                     <p class="text-inverse">
-                        <span id="cover-subtitle"></span> <span id="cover-heart"></span>
-
+                        <span id="cover-subtitle" class="cover-subtitle"></span> <span id="cover-heart" class="cover-heart"></span>
                     </p>
                     <div>
                         <img id="scroll-image" src="scroll.png" height="50px" />
                     </div>
                 </div>
+
+                <!-- MOBILE MODE -->
+                <div class="col-sm-12 col-xm-12 hidden-md hidden-lg hidden-xl text-center" style="padding:0px">
+                    <img src="logo-small.png" height="150px" />
+                    <p class="text-inverse">
+                        <span id="cover-subtitle-sm" class="cover-subtitle"></span> <span id="cover-heart-sm" class="cover-heart"></span>
+                    </p>
+                    <div>
+                        <img class="scroll-image" src="scroll.png" height="50px" />
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -61,18 +73,50 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img id="makeup-image" src="makeup-1.jpg" />
+                    <img id="makeup-image" src="makeup-1.png" />
                 </div>
                 <div class="col-md-6">
-                    <h3 id="rupert-title"></h3>
-                    <p class="about-content" id="rupert-content-1"></p>
+                    <h3 id="about-subtitle"></h3>
+                    <p class="about-content" id="about-content-1"></p>
                     </br>
-                    <p class="about-content" id="rupert-content-2"></p>
+                    <p class="about-content" id="about-content-2"></p>
                     </br>
                     </br>
-                    <p class="about-content" id="rupert-content-3"></p>
+                    <p class="about-content" id="about-content-3"></p>
+                    <p class="about-content" id="about-content-4"></p>
 
-                    <p class="about-content" id="rupert-content-4"></p>
+                    <div id="icons-services" class="col-md-12 col-xs-12" style="padding-top:30px">
+                        <div class="col-md-1  hidden-sm" col-xs-1></div>
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-bride.png" height="70px" /> Noivas
+                        </div>
+                        <div class="col-md-1  hidden-sm"></div>
+
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-student.png" height="70px" /> Formandos
+                        </div>
+                        <div class="col-md-1  hidden-xs"></div>
+
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-teen.png" height="70px" /> Debutantes
+                        </div>
+                        <div class="col-md-1  hidden-xs"></div>
+
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-ads.png" height="70px" /> Produções publicitarias
+                        </div>
+                        <div class="col-md-1  hidden-xs"></div>
+
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-art.png" height="70px" /> Maquiagem artistica
+                        </div>
+                        <div class="col-md-1  hidden-xs"></div>
+
+                        <div class="col-md-3 col-xs-6">
+                            <img src="icon-event.png" height="70px" /> Eventos em geral
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,25 +147,25 @@
 
                     <div id="contact-span-1">
                         <div class="col-xs-4 text-center">
-                            <a href="https://twitter.com/calangoSTD" target="_blank"><i
+                            <a href="https://twitter.com/borbamakeup" target="_blank"><i
                             class="fa fa-3x fa-twitter-square"></i></a>
                         </div>
                         <div class="col-xs-4 text-center">
-                            <a href="https://www.facebook.com/TheCalangoStudio/" target="_blank"><i
+                            <a href="https://www.facebook.com/thaisborbamakeup/" target="_blank"><i
                             class="fa fa-3x fa-facebook-square "></i></a>
                         </div>
                         <div class="col-xs-4 text-center">
-                            <a href="https://play.google.com/store/apps/dev?id=6375179153164215003" target="_blank"><i
+                            <a href="https://www.instagram.com/thaisborbamakeup/" target="_blank"><i
                             class="fa fa-3x fa-instagram  "></i></a>
                         </div>
                     </div>
 
                     <div id="contact-span-2">
-                        <div class="col-xs-12" style="left: 14%;">
+                        <div id="container-tel" class="col-lg-9 col-md-10 col-sm-7 col-xs-12 contact-container">
                             <a href="tel:+5511987914440" target="_blank">
-                            <i class="fa fa-4x fa-whatsapp"></i> 
-                            <span id="contact-tel">&nbsp;(11) 9 8791.4440</span>
-                        </a>
+                                <i class="fa fa-4x fa-whatsapp"></i> 
+                                <span id="contact-tel">&nbsp;(11) 9 8791.4440</span>
+                            </a>
                         </div>
                     </div>
 
@@ -132,8 +176,8 @@
 
                 <!--Facebook timeline -->
                 <div class="col-md-6 text-center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthaisborbamakeup%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=407634492748304"
-                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <iframe style="left: 25%; position: relative;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthaisborbamakeup%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=407634492748304"
+                        width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                 </div>
 
             </div>
@@ -147,7 +191,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h6 contenteditable="false" class="text-center">Website por: </h6>
+                    <h6 contenteditable="false" class="text-center">
+                        Website por: Marcelo Belkiman
+                        <a href="http://twitter.com/mmbelkiman" target="_blank">
+                            <span style="font-weight: bold">&nbsp;[ @mmbelkiman ]</span>
+                        </a>
+                    </h6>
                 </div>
             </div>
         </div>
