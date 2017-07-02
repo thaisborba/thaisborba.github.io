@@ -42,7 +42,7 @@ $(document).ready(function () {
             duration: '1000',
             complete: function () {
                 $('.scroll-image').animate({
-                    top: 0
+                    top: '0'
                 }, {
                     duration: 1000,
                     complete: animateScrollDown
@@ -76,7 +76,6 @@ $(document).ready(function () {
         $("#contact-content-1").html(mLanguage["content-1"]);
         $("#contact-content-2").html(mLanguage["content-2"]);
         $("#contact-content-3").html(mLanguage["content-3"]);
-
     }
 
     translate();
