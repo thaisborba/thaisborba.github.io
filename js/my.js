@@ -37,14 +37,15 @@ $(document).ready(function () {
 
     function animateScrollDown() {
         $('.scroll-image').animate({
-            'top': '10'
+            'top': 10
+      
         }, {
             duration: '1000',
             complete: function () {
                 $('.scroll-image').animate({
-                    top: '0'
+                    top: 0
                 }, {
-                    duration: 1000,
+                    duration: '1000',
                     complete: animateScrollDown
                 });
             }
