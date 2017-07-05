@@ -142,11 +142,24 @@ p {
     border-style: solid;
     padding-top: 10px;
     padding-bottom: 10px;
+
+         -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
 }
 
 .contact-container:hover {
-    background-color: rgba(224, 130, 131, 0.06);
-    ;
+    background-color: rgba(224, 130, 131, 0.15);
+
+
+
+        -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color100ms200ms linear;
+    transition: background-color 100ms linear;
 }
 
 .contact-container a {
