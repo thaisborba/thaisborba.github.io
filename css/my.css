@@ -212,7 +212,7 @@ p {
 
 @media(max-width:410px) {
     #contact-tel {
-        font-size: 26px;
+        font-size: 20px;
         top: 30%;
     }
     #facebook-frame {
