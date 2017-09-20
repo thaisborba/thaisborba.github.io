@@ -9,17 +9,31 @@ $(document).ready(function () {
     images[4] = "makeup-5.png";
     images[5] = "makeup-6.png";
     images[6] = "makeup-7.png";
+    images[7] = "makeup-8.png";
+    images[8] = "makeup-9.png";
+    images[9] = "makeup-10.png";
+
+    var countClicks = 0;
+
+    $("#makeup-image").on("click", function () {
+        displayNextImage();
+        countClicks++;
+    });
 
     function displayNextImage() {
         imagePosition = (imagePosition === images.length - 1) ? 0 : imagePosition + 1;
         $("#makeup-image").attr("src", images[imagePosition]);
-        $('#makeup-image').animate({
-            opacity: 1
-        }, {
-            duration: 'slow',
-            complete: waitingToHide
-        });
 
+        if (countClicks == 0) {
+            $('#makeup-image').animate({
+                opacity: 1
+            }, {
+                duration: 'slow',
+                complete: waitingToHide
+            });
+        } else {
+            countClicks--;
+        }
     }
 
     function waitingToHide() {
@@ -38,7 +52,7 @@ $(document).ready(function () {
     function animateScrollDown() {
         $('.scroll-image').animate({
             'top': 10
-      
+
         }, {
             duration: '1000',
             complete: function () {
