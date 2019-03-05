@@ -7,9 +7,9 @@ var language = {
         about: {
             'title': 'Maquiagem. Arte da beleza',
             'subtitle': 'Sobre mim',
-            'content-1': 'Sou Maquiadora profissional e atendendo em Campinas (SP) e região.',
-            'content-2': 'Formada no <b>Instituto Embelleze</b> em Maquiagem Profissional e pela <b>Ondina Beauty Academy</b> em Maquiagem Social Profissional. Já realizei cursos com maquiadoras profissionais como <b>Deisy Perozzo</b> e <b>Franciani Favoretti</b>.',
-            'content-3': 'Trabalho com todos os tipos de maquiagens para qualquer ocasião que você desejar.',
+            'content-1': 'Profissional na área de Beleza em Campinas (SP).',
+            'content-2': 'Graduada pelo <b>Instituto Embelleze</b> em Maquiagem Profissional, e pela <b>Ondina Beauty Academy</b> em Maquiagem Social Profissional. Possui diversos outros cursos de especialização com grandes e reconhecidos maquiadores do Brasil, como <b>Deisy Perozzo</b> e <b>Carou Freitas</b>.',
+            'content-3': 'Já atua na área desde 2014 e em 2018 passou a administrar cursos de automaquiagem.',
             'content-4': ''
         },
         contact: {
@@ -20,6 +20,7 @@ var language = {
         },
     }
 }
+
 
 function getLanguage() {
     var mLanguage = getCookie("language");

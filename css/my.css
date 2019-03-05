@@ -16,23 +16,31 @@ Green:        #78C0A8
     src: url('../fonts/Cardo-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url('../fonts/Anton-Regular.ttf');
+}
+
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 h2 {
-    color: #e08283 !important;
-    font-weight: bold;
+    color: #666 !important;
     margin-top: 0px;
     font-size: 32px;
-    font-family: 'Cardo-Regular'
+    font-family: 'Anton-Regular'
 }
 
 h3 {
     margin-top: 0px;
-    font-family: 'Cardo-Regular';
-    color: #ff6668 !important;
+    font-family: 'Raleway-Regular';
+    color: #888 !important;
+}
+
+h6{
+    font-size: 10px;
 }
 
 a {
@@ -40,12 +48,16 @@ a {
 }
 
 a:hover {
-    color: #e08283;
+    color: #000;
     text-decoration: none;
 }
 
 p {
     font-family: 'Raleway-Regular';
+}
+
+.container{
+    background-color: white;
 }
 
 .about-content {
@@ -86,8 +98,7 @@ p {
 }
 
 #about-title {
-    font-weight: unset;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -104,6 +115,14 @@ p {
 }
 
 #contact-tel {
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    font-family: 'Raleway-Regular';
+}
+
+#whatsapp-button {
     font-size: 38px;
     font-weight: bold;
     position: absolute;
@@ -130,13 +149,18 @@ p {
     padding-bottom: 140px;
 }
 
+#contact-span-3 {
+    padding-top: 4px;
+    padding-bottom: 140px;
+}
+
 #contact-region {
     font-size: 16px;
     color: #888 !important;
 }
 
 .contact-container {
-    border-color: #e08283;
+    border-color: #000;
     border-width: 3px;
     border-radius: 10px;
     border-style: solid;
@@ -167,12 +191,12 @@ p {
 }
 
 .separator {
-    background-color: #C55;
+    background-color: #999;
     height: 4px;
     margin-bottom: 15px;
 }
 
-#icons-services {
+.icons-services {
     text-align: center;
 }
 
@@ -181,7 +205,7 @@ p {
 }
 
 #facebook-frame {
-    left: 25%;
+    left: 14%;
     position: relative;
 }
 
@@ -192,7 +216,7 @@ p {
 }
 
 @media(max-width:991px) {
-    #icons-services {
+    .icons-services {
         text-align: left;
     }
     #container-tel {
@@ -208,10 +232,21 @@ p {
         left: 10%;
         position: relative;
     }
+ 
 }
 
-@media(max-width:410px) {
+@media only screen and (min-width: 767px) {
+    #contact-span-3{
+        display:none;
+    }
+  }
+
+@media(max-width:470px) {
     #contact-tel {
+        font-size: 20px;
+        top: 30%;
+    }
+    #whatsapp-button {
         font-size: 20px;
         top: 30%;
     }
