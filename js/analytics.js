@@ -10,15 +10,12 @@
     m.parentNode.insertBefore(a, m)
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-var logPageView = setInterval(pageView, 1000);
+var logPageView = setInterval(pageView, 2000);
 
 function pageView(){
-    if (window.ga && ga.loaded) {
+    if (window.ga) {
         ga('create', 'UA-101947634-1', 'auto');
         ga('send', 'pageview');
         clearTimeout(logPageView);
-    }else{
-        console.log("OI");
-        setInterval(logPageView, 5000);
     }
 }
