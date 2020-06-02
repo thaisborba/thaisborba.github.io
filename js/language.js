@@ -5,7 +5,7 @@ var language = {
             'content-1': 'Maquiadora profissional, artista visual e empreendedora em série.',
             'content-2': 'Foi pela vontade de trabalhar com arte e beleza, que Thais Borba decidiu seguir carreira no mundo da maquiagem. Fugindo do convencional e seguindo uma linha de maquiagem mais artística, foi a forma com que Thais encontrou para expressar o seu processo criativo.',
             'content-3': 'Já atua como maquiadora profissional há 5 anos. Especializou-se em Maquiagem Social, Editorial e Artística. Possui diversos cursos de especialização na área com profissionais renomados como Brigitte Calegari..',
-            'content-4': 'Em 2018 passou a atuar como Lash Designer, e a partir de 2019 vem ministrando cursos profissionalizantes. Formada com Tatiana Oliveira & Jessica Lima Academy, possui 2 certificados internacionais como Lash Designer especializada na técnica de Lash Lifting.',
+            'content-4':'',
             'content-5': 'Em 2020 criou Aquela Vênus, uma plataforma e comunidade digital sobre branding, empreendedorismo e marketing digital para mulheres.'
         },
         contact: {
