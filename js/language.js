@@ -1,16 +1,12 @@
 var language = {
     ptbr: {
-        cover: {
-            'subtitle': 'Realçando a beleza de pessoas incríveis',
-            'heart': '❤'
-        },
         about: {
-            'title': 'Maquiagem. Arte da beleza',
-            'subtitle': 'Sobre mim',
-            'content-1': 'Profissional na área de Beleza em Campinas (SP).',
-            'content-2': 'Graduada pelo <b>Instituto Embelleze</b> em Maquiagem Profissional, e pela <b>Ondina Beauty Academy</b> em Maquiagem Social Profissional. Possui diversos outros cursos de especialização com grandes e reconhecidos maquiadores do Brasil, como <b>Deisy Perozzo</b> e <b>Carou Freitas</b>.',
-            'content-3': 'Já atua na área desde 2014 e em 2018 passou a administrar cursos de automaquiagem.',
-            'content-4': ''
+            'title': 'Quem sou?',
+            'content-1': 'Maquiadora profissional, artista visual e empreendedora em série.',
+            'content-2': 'Foi pela vontade de trabalhar com arte e beleza, que Thais Borba decidiu seguir carreira no mundo da maquiagem. Fugindo do convencional e seguindo uma linha de maquiagem mais artística, foi a forma com que Thais encontrou para expressar o seu processo criativo.',
+            'content-3': 'Já atua como maquiadora profissional há 5 anos. Especializou-se em Maquiagem Social, Editorial e Artística. Possui diversos cursos de especialização na área com profissionais renomados como Brigitte Calegari..',
+            'content-4': 'Em 2018 passou a atuar como Lash Designer, e a partir de 2019 vem ministrando cursos profissionalizantes. Formada com Tatiana Oliveira & Jessica Lima Academy, possui 2 certificados internacionais como Lash Designer especializada na técnica de Lash Lifting.',
+            'content-5': 'Em 2020 criou Aquela Vênus, uma plataforma e comunidade digital sobre branding, empreendedorismo e marketing digital para mulheres.'
         },
         contact: {
             'title': 'Contato',
@@ -24,7 +20,7 @@ var language = {
 
 function getLanguage() {
     var mLanguage = getCookie("language");
-    var mActiveLanguage = language.en;
+    var mActiveLanguage = language.ptbr;
     if (!mLanguage) {
         //Set Portuguese if no have set language
         setCookie("language", 1, 99);

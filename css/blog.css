@@ -1,0 +1,48 @@
+a {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #383838;
+    font-family: 'HindSiliguri-Regular', sans-serif;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card{
+    border-width: 0px;
+}
+.nav-link{
+    font-weight: normal;
+    color: #000;
+    font-size: 1rem;}
+
+.title-right{
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.post-name {
+    text-align: center;
+}
+
+.post-sign {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#title-follow {
+    text-align: center;
+    margin: auto;
+}
+

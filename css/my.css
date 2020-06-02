@@ -1,117 +1,160 @@
-/*Color-pallet: 
-Yellow:      #FCEBB6
-Brow:        #5E412F
-Orange:      #F07818
-Dark-Yellow: #F0A830
-Green:        #78C0A8
+/*Color-pallet:
+Primary    : #f84e32
+Text       : #44484d
+background : #f6f2ef
 */
 
 @font-face {
-    font-family: 'Raleway-Regular';
-    src: url('../fonts/Raleway-Regular.ttf');
+    font-family: 'LibreCaslonDisplay-Regular';
+    src: url('../fonts/LibreCaslonDisplay-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Cardo-Regular';
-    src: url('../fonts/Cardo-Regular.ttf');
+    font-family: 'TenorSans-Regular';
+    src: url('../fonts/TenorSans-Regular.ttf');
 }
 
-@font-face {
-    font-family: 'Anton-Regular';
-    src: url('../fonts/Anton-Regular.ttf');
+head {
+    background-color: #f6f2ef;
+}
+
+body {
+    background-color: #f6f2ef;
+}
+
+footer {
+    background-color: #f6f2ef;
 }
 
 h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: 'LibreCaslonDisplay-Regular', serif;
+    padding-bottom: 0.3em;
+    color: #f84e32;
 }
 
 h2 {
-    color: #666 !important;
-    margin-top: 0px;
+    color: #000000;
     font-size: 32px;
-    font-family: 'Anton-Regular'
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'LibreCaslonDisplay-Regular', serif;
 }
 
 h3 {
-    margin-top: 0px;
-    font-family: 'Raleway-Regular';
-    color: #888 !important;
-}
-
-h6{
-    font-size: 10px;
+    font-size: 1.25rem;
+    font-family: 'LibreCaslonDisplay-Regular', serif;
 }
 
 a {
-    color: #333;
+    color: #44484d;
+    font-family: 'TenorSans-Regular', sans-serif;
 }
 
 a:hover {
-    color: #000;
-    text-decoration: none;
+    color: #383838;
 }
 
 p {
-    font-family: 'Raleway-Regular';
+    font-size: 0.9rem;
+    color: #44484d;
+    font-family: 'TenorSans-Regular', sans-serif;
 }
 
-.container{
-    background-color: white;
+li{
+    font-size: 1.2em;
+}
+
+.nav-link-active {
+    color: black;
+    font-weight: bold;
 }
 
 .about-content {
-    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.contact-content {
-    font-size: 18px;
-}
-
-.presskit-content {
-    font-size: 32px;
-}
-
-#makeup-image {
+.btn-primary {
+    background-color: #f84e32;
+    color: #FFFFFF;
+    border-color: #f84e32;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #ececee !important;
+    color: #000 !important;
+    border-color: #ececee !important;
+}
+
+.btn-primary:active:focus {
+    box-shadow: none !important;
+    background-color: #ececee !important;
+    color: #000 !important;
+    border-color: #ececee !important;
+}
+
+.card {
+    margin: 10px;
+    width: 18rem;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+#contact-content {
+    text-align: center;
+}
+
+#section-blog {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#avatar-container {
+    align-self: center;
+}
+
+#avatar {
+    height: 26em;
+    width: 26em;
+    border-radius: 50%;
     display: block;
+    margin-left: auto;
 }
 
-.cover-heart {
-    color: #ff6668;
-    text-shadow: 0 0 1px black;
+#webmaster-name {
+    font-weight: bold
 }
 
-#cover-top-container {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
+#title {
+    font-size: 10.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.cover-subtitle {
-    text-shadow: 0 0 2px black;
-}
-
-#cover-top-title {
-    margin-top: 2%;
+#blog-title {
+   
 }
 
 #about-title {
-    font-size: 36px;
-    margin-top: 10px;
-    margin-bottom: 15px;
 }
 
-.scroll-image {
-    position: relative;
+.navbar{
+    padding-top: 3em;
+    padding-left: 3em;
 }
 
-#menu {
-    top: 0px;
-    position: absolute;
-    width: 100%;
-    font-size: 24px;
+#creator {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#h1-title-p2 {
+    line-height: 100px;
 }
 
 #contact-tel {
@@ -119,142 +162,31 @@ p {
     font-weight: bold;
     position: absolute;
     top: 20%;
-    font-family: 'Raleway-Regular';
-}
-
-#whatsapp-button {
-    font-size: 38px;
-    font-weight: bold;
-    position: absolute;
-    top: 20%;
-    font-family: 'Raleway-Regular';
 }
 
 #contact-mail {
-    font-size: 18px;
-    font-weight: bold;
-    color: #e08283;
-}
-
-#contact-mail:hover {
-    color: #ff6668;
-}
-
-#contact-span-1 {
-    padding-top: 30px;
-}
-
-#contact-span-2 {
-    padding-top: 100px;
-    padding-bottom: 140px;
-}
-
-#contact-span-3 {
-    padding-top: 4px;
-    padding-bottom: 140px;
-}
-
-#contact-region {
     font-size: 16px;
-    color: #888 !important;
-}
-
-.contact-container {
-    border-color: #000;
-    border-width: 3px;
-    border-radius: 10px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-         -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
-}
-
-.contact-container:hover {
-    background-color: rgba(224, 130, 131, 0.15);
-
-
-
-        -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color100ms200ms linear;
-    transition: background-color 100ms linear;
-}
-
-.contact-container a {
-    color: #e08283;
+    text-transform: uppercase;
 }
 
 .separator {
-    background-color: #999;
+    background-color: #383838;
     height: 4px;
     margin-bottom: 15px;
 }
 
-.icons-services {
-    text-align: center;
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    #title {
+        font-size: 5.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }    
 }
 
-#container-tel {
-    left: 13%;
-}
-
-#facebook-frame {
-    left: 14%;
-    position: relative;
-}
-
-@media(max-width:1200px) {
-    #container-tel {
-        left: 9%;
-    }
-}
-
-@media(max-width:991px) {
-    .icons-services {
-        text-align: left;
-    }
-    #container-tel {
-        left: 22%;
-    }
-}
-
-@media(max-width:767px) {
-    #container-tel {
-        left: 0%;
-    }
-    #facebook-frame {
-        left: 10%;
-        position: relative;
-    }
- 
-}
-
-@media only screen and (min-width: 767px) {
-    #contact-span-3{
-        display:none;
-    }
-  }
-
-@media(max-width:470px) {
-    #contact-tel {
-        font-size: 20px;
-        top: 30%;
-    }
-    #whatsapp-button {
-        font-size: 20px;
-        top: 30%;
-    }
-    #facebook-frame {
-        left: 0%;
-        position: relative;
-    }
-    .fa-whatsapp{
-        font-size: 3em;
-    }
+@media (max-width: 470px) {
+    
 }
