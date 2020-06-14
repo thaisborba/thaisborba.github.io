@@ -205,4 +205,9 @@ li {
     }
 }
 
-@media (max-width: 470px) {}
+@media (max-width: 470px) {
+    #avatar {
+        height: 16em;
+        width: 16em;
+    }
+}
