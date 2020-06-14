@@ -5,13 +5,13 @@ background : #f6f2ef
 */
 
 @font-face {
-    font-family: 'LibreCaslonDisplay-Regular';
-    src: url('../fonts/LibreCaslonDisplay-Regular.ttf');
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'TenorSans-Regular';
-    src: url('../fonts/TenorSans-Regular.ttf');
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
 }
 
 head {
@@ -19,18 +19,14 @@ head {
 }
 
 body {
-    background-color: #f6f2ef;
-}
-
-footer {
-    background-color: #f6f2ef;
+    background-color: #3a458b;
 }
 
 h1 {
     font-size: 50px;
-    font-family: 'LibreCaslonDisplay-Regular', serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     padding-bottom: 0.3em;
-    color: #f84e32;
+    color: #3a458b;
 }
 
 h2 {
@@ -38,40 +34,27 @@ h2 {
     font-size: 32px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'LibreCaslonDisplay-Regular', serif;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 h3 {
     font-size: 1.25rem;
-    font-family: 'LibreCaslonDisplay-Regular', serif;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 a {
-    color: #44484d;
-    font-family: 'TenorSans-Regular', sans-serif;
+    color: #3a458b;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 a:hover {
-    color: #383838;
+    color: #3a45ff;
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: #44484d;
-    font-family: 'TenorSans-Regular', sans-serif;
-}
-
-li{
-    font-size: 1.2em;
-}
-
-.nav-link-active {
-    color: black;
-    font-weight: bold;
-}
-
-.about-content {
-    text-transform: uppercase;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .btn-primary {
@@ -104,25 +87,60 @@ li{
     font-size: 50px;
 }
 
+#about-title {
+    color: #ffcbcb;
+    text-align: center;
+}
+
+#top-content {
+    background-color: #ffcbcb;
+}
+
+#about-content {
+    background-color: #3a458b;
+}
+
+.about-content {
+    color: #ffcbcb
+}
+
+/**CONTACT */
+
+#section-contact {
+    background-color: #ffcbcb;
+    padding-top: 1em;
+}
+
 #contact-content {
     text-align: center;
 }
+
+.contact-mail {
+    color: #3a458b;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+/** *********/
+
+/** FOOTER */
+footer {
+    background-color: #ffcbcb;
+} 
+/***** ********/
 
 #section-blog {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-#avatar-container {
-    align-self: center;
-}
-
 #avatar {
-    height: 26em;
-    width: 26em;
+    height: 23em;
+    width: 23em;
     border-radius: 50%;
-    display: block;
     margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #webmaster-name {
@@ -130,21 +148,29 @@ li{
 }
 
 #title {
-    font-size: 8em;
+    letter-spacing: 0.1em;
+    font-size: 7em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-#blog-title {
-   
+li {
+    font-size: 1.1em;
 }
 
-#about-title {
-}
-
-.navbar{
+.navbar {
     padding-top: 3em;
     padding-left: 3em;
+    background-color: #ffcbcb;
+}
+
+.nav-link-active {
+    color: #3a458b;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #3a458b;
 }
 
 #creator {
@@ -155,18 +181,6 @@ li{
 
 #h1-title-p2 {
     line-height: 100px;
-}
-
-#contact-tel {
-    font-size: 38px;
-    font-weight: bold;
-    position: absolute;
-    top: 20%;
-}
-
-#contact-mail {
-    font-size: 16px;
-    text-transform: uppercase;
 }
 
 .separator {
@@ -181,12 +195,14 @@ li{
 
 @media (max-width: 767px) {
     #title {
-        font-size: 5.5em;
+        font-size: 4.5em;
         padding-top: 1em;
         padding-bottom: 1em;
-    }    
+    }
+    #avatar {
+        height: 20em;
+        width: 20em;
+    }
 }
 
-@media (max-width: 470px) {
-    
-}
+@media (max-width: 470px) {}
