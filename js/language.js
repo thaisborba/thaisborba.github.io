@@ -6,13 +6,13 @@ var language = {
             'content-2': 'Foi pela vontade de trabalhar com arte e beleza, que Thais Borba decidiu seguir carreira no mundo da maquiagem. Fugindo do convencional e seguindo uma linha de maquiagem mais artística, foi a forma com que Thais encontrou para expressar o seu processo criativo.',
             'content-3': 'Já atua como maquiadora profissional há 5 anos. Especializou-se em Maquiagem Social, Editorial e Artística. Possui diversos cursos de especialização na área com profissionais renomados como Brigitte Calegari..',
             'content-4':'',
-            'content-5': 'Em 2020 criou Aquela Vênus, uma plataforma e comunidade digital sobre branding, empreendedorismo e marketing digital para mulheres.'
+            'content-5': 'Em 2020 criou Aquela Vênus, uma plataforma e comunidade sobre educação empreendedora e marketing digital para mulheres.'
         },
         contact: {
             'title': 'Contato',
             'content-1': 'Está com dúvidas ou precisando de um orçamento? Quer saber mais sobre meu trabalho? ',
             'content-2': 'Entre em contato pelo telefone/WhatsApp ou se preferir mande um e-mail para',
-            'content-3': 'que te responderei o mais rápido possivel. Será um prazer conversar com você :)'
+            'content-3': 'que te responderei o mais rápido possível. Será um prazer conversar com você :)'
         },
     }
 }
